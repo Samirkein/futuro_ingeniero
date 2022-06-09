@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&display=swap');
+
+body{
+    background-image: url("https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1019.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    border: 2px solid black !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+}
+h1{
+    font-family: 'Lobster', cursive !important;
+    font-size: 70px !important;
+    color: black !important;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 30px !important;
+    color: brown;
+    margin-bottom: 30px !important;
+}
+h3{
+    font-size: 30px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+img{
+    width: 100%;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px black !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+
+}
+.css-typing  {
+    border-right: .15em solid black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-typing {
+    width: 100%;
+    -webkit-animation: type 5s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type 5s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@media (max-width: 600px) {
+  .css-typing {
+    width: 100%;
+    text-align: center !important;
+}
+    h1{
+        font-size: 25px !important;
+        color: black;
+    }
+  }
